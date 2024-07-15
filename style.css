@@ -23,4 +23,14 @@ body {
     padding: 10px;
     text-align: center;
   }
-  
+  #love-notes {
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-family: 'Cursive', sans-serif;
+  text-align: center;
+}
+#love-notes h2 {
+  color: #e91e63;
+}
