@@ -3631,7 +3631,7 @@ input, select, textarea {
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("assets/css/images/i love you.jpg");
+			background-image: url("assets/css/image/i love you.jpg");
 		}
 
 		.wrapper:before {
@@ -3691,7 +3691,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
-				background-image: url("assets/css/images/i love you.jpg");
+				background-image: url("assets/css/image/i love you.jpg");
 			}
 
 			.wrapper.style2:before {
@@ -3707,7 +3707,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
-				background-image: url("assets/css/images/i love you.jpg");
+				background-image: url("assets/css/image/i love you.jpg");
 			}
 
 			.wrapper.style3:before {
@@ -3723,7 +3723,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style4:before, .wrapper.style4:after {
-				background-image: url("assets/css/images/i love you.jpg");
+				background-image: url("assets/css/image/i love you.jpg");
 			}
 
 			.wrapper.style4:before {
@@ -3740,7 +3740,7 @@ input, select, textarea {
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("assets/css/images/i love you.jpg");
+				background-image: url("assets/css/image/i love you.jpg");
 			}
 
 			.wrapper.spotlight:before {
@@ -3801,7 +3801,7 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("assets/css/images/i love you.jpg");
+					background-image: url("assets/css/image/i love you.jpg");
 				}
 
 				.wrapper.spotlight.style2:before {
@@ -3817,7 +3817,7 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("assets/css/images/i love you.jpg");
+					background-image: url("assets/css/image/i love you.jpg");
 				}
 
 				.wrapper.spotlight.style3:before {
@@ -3833,7 +3833,7 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
-					background-image: url("assets/css/images/i love you.jpg");
+					background-image: url("assets/css/image/i love you.jpg");
 				}
 
 				.wrapper.spotlight.style4:before {
