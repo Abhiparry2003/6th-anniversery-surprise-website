@@ -1,106 +1,45 @@
 body {
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
 }
 
-section {
-    position: relative;
-    padding: 60px 20px;
-    color: white;
-    text-align: center;
-    font-size: 1.2em;
-    overflow: hidden;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(100%);
-    transition: filter 0.5s;
-}
-
-section:nth-of-type(1)::before {
-    background-image: url('image/i love you.jpg');
-    filter: brightness(100%);
-}
-
-section:nth-of-type(2)::before {
-    background-image: url('image/i love you.jpg');
-    filter: brightness(90%);
-}
-
-section:nth-of-type(3)::before {
-    background-image: url('image/i love you.jpg');
-    filter: brightness(80%);
-}
-
-section:nth-of-type(4)::before {
-    background-image: url('image/i love you.jpg');
-    filter: brightness(70%);
-}
-
-section h2 {
-    margin: 20px 0;
-    font-size: 2em;
-}
-
-section p {
-    margin: 0;
-}
-
 .section1, .section2, .section3, .section4 {
-    height: 50px; /* Adjust height as needed to fit 7-8 lines of a paragraph */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-.section2 {
-    margin-top: -50px; /* Adjust as needed for wavy overlap */
-}
-
-.section3 {
-    margin-top: -50px; /* Adjust as needed for wavy overlap */
-}
-
-.section4 {
-    margin-top: -50px; /* Adjust as needed for wavy overlap */
-}
-
-/* Add wave-like effect for overlapping sections */
-.section1::before,
-.section2::before,
-.section3::before,
-.section4::before {
-    clip-path: ellipse(150% 80% at 50% 20%);
-}
-
-.section2::before {
-    clip-path: ellipse(150% 80% at 50% 40%);
-}
-
-.section3::before {
-    clip-path: ellipse(150% 80% at 50% 60%);
-}
-
-.section4::before {
-    clip-path: ellipse(150% 80% at 50% 80%);
+.section1 div, .section2 div, .section3 div, .section4 div {
+    margin-left: 20px;
 }
 
 .profile-picture {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: auto;
     border-radius: 50%;
-    border: 3px solid white;
-    margin-bottom: 20px;
+}
+
+.gallery {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.gallery h2 {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-container img {
+    width: 45%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
 }
