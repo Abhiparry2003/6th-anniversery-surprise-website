@@ -33,22 +33,22 @@ section::before {
 }
 
 section:nth-of-type(1)::before {
-    background-image: url('path/to/your/image1.jpg');
+    background-image: url('image/i love you.jpg');
     filter: brightness(100%);
 }
 
 section:nth-of-type(2)::before {
-    background-image: url('path/to/your/image2.jpg');
+    background-image: url('image/i love you.jpg');
     filter: brightness(90%);
 }
 
 section:nth-of-type(3)::before {
-    background-image: url('path/to/your/image3.jpg');
+    background-image: url('image/i love you.jpg');
     filter: brightness(80%);
 }
 
 section:nth-of-type(4)::before {
-    background-image: url('path/to/your/image4.jpg');
+    background-image: url('image/i love you.jpg');
     filter: brightness(70%);
 }
 
